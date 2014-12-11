@@ -16,10 +16,6 @@ module Infrataster
         Resources::HttpResource.new(*args)
       end
 
-      def mysql_query(*args)
-        Resources::MysqlQueryResource.new(*args)
-      end
-
       def capybara(*args)
         Resources::CapybaraResource.new(*args)
       end
